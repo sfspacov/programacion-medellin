@@ -1,0 +1,18 @@
+NOTAS DE LA CLASE 2 (2023/01/05)
+
+###############################################
+Java: Lenguage de Backend
+Javascript: Lenguage de Frontend
+
+Sql: Lenguage para base de datos
+Sql Server: Software -> Base de datos
+
+Git: Software de versionamiento de codigo
+Github: Site para almazenar el codigo
+
+###############################################
+Frontend: HTML + CSS + Javascript
+
+Backend: C# + .NET
+
+Base de datos: Sql + Sql Server
