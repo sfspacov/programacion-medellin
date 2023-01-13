@@ -28,7 +28,12 @@ Pasos para usar CSS
 	...
 	...
 	</body>
+###################
+Três Tipos de CSS
+- En linea
+- Adentro de la tag <style></style>
+- En archivo separado
 	
 ###################
-Bootstrap
+Bootstrap - Tecnologia que facilita el uso de css
 https://getbootstrap.com/
