@@ -1,0 +1,34 @@
+Pasos para usar CSS
+
+1 - Criar el archivo ".css" vazio
+	por ejemplo: style.css
+	
+2 - Criar las clases
+	por ejemplo:
+		.miClase
+		{
+			background-color: red;
+			width: 100%;
+		}
+		.form-style-9{
+			padding:0;
+			margin:0;
+			list-style:none;
+		}
+
+3 - Carga el archivo ".css" en la pagina html
+	por ejemplo:
+	<link rel="stylesheet" href="camino">
+
+4 - Usa las clases en su pagina html
+	por ejemplo
+	<div class="miClase"></div>
+	
+	<body class="form-style-9">
+	...
+	...
+	</body>
+	
+###################
+Bootstrap
+https://getbootstrap.com/
