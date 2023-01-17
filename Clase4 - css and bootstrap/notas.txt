@@ -18,8 +18,7 @@ Pasos para usar CSS
 
 3 - Carga el archivo ".css" en la pagina html
 	por ejemplo:
-	<link rel="stylesheet" href="camino">
-
+	cc
 4 - Usa las clases en su pagina html
 	por ejemplo
 	<div class="miClase"></div>
