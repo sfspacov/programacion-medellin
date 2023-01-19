@@ -1,0 +1,20 @@
+Tags <> have properties!
+	- style
+	- id
+	- width
+	- name
+	- class
+
+CSS can be used...
+- In line, inside a tag, using the property style
+- Inside the <head>, using the tag <style>, creating classes and using'em
+- In an external file, and load it using <link> tag
+
+javascript
+
+if (txtEmail == empty)
+	alert('Email can't be empty!')
+
+txtEmail =  'Maria' (SET)
+
+txtEmail == 'Maria' (CHECK)

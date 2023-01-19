@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="form.css">
+		<script src="form.js"></script>
+		<title>
+			Add new User
+		</title>
+	</head>
+	<body>
+		<form class="form-style-9">
+			<ul>
+				<li>
+					<input type="text" id="nombre" class="field-style field-split align-left" placeholder="Name" />
+					<input type="email" id="correo" class="field-style field-split align-right" placeholder="Email" />
+
+				</li>
+				<li>
+					<input type="text" id="telefono" class="field-style field-split align-left" placeholder="Phone" />
+					<input type="url" id="website" class="field-style field-split align-right" placeholder="Website" />
+				</li>
+				<li>
+					<input type="text" id="Asunto" class="field-style field-full align-none" placeholder="Subject" />
+				</li>
+				<li>
+					<textarea id="Mesaje" class="field-style" placeholder="Message"></textarea>
+				</li>
+				<li>
+					<input onclick="salvarUsuario()" type="button" value="Save" />					
+				</li>
+			</ul>
+		</form>
+	</body>
+</html>
