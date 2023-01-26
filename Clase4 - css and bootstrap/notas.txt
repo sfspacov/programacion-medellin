@@ -1,7 +1,8 @@
 Pasos para usar CSS
 
 1 - Criar el archivo ".css" vazio
-	por ejemplo: style.css
+	por ejemplo: 
+	
 	
 2 - Criar las clases
 	por ejemplo:
