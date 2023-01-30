@@ -1,0 +1,18 @@
+ - Nunca mesclar las lenguages
+	- HTML/CSS/JS
+
+ - var es usada para criar una variable
+ - document.getElementById('id');
+	- uso para buscar una tag por su id
+
+ - if else es una estructura para validar condiciones	
+	- es posible tener una cadena de validaciones
+	if (condicion) 
+	{
+		//si la condicion es verdad
+		//ejecuto ese codigo
+	}
+	else
+	{
+		//si es falsa, ejecuto ese otro codigo
+	}

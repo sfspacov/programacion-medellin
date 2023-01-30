@@ -17,6 +17,6 @@ function salvarUsuario()
 	}
 	else
 	{	
-		alert('Datos salvos con suceso');
+		alert('Datos salvos con exito');
 	}
 }
