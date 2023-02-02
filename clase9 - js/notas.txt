@@ -1,0 +1,43 @@
+Operadores Condicionales
+== -> equal operator
+
+!= -> not equal operator
+
+AND -> && (todos necesitan ser verdad, para resultar verdad)
+
+OR	-> || (basta uno ser verdad, para resultar verdad)
+
+SI (if) tengo Neymar Y Messi, seremos campeones
+- Messi ?????
+ NO seremos campeones!!!!!
+
+SI (if) tengo Neymar O Messi, seremos campeones
+- Messi ?????
+ YES seremos campeones!!!
+ 
+TABLA VERDAD
+		
+	   AND		  	  CAMPEONES
+________________________________
+Neymar	|	Messi	|
+  T		|	  F		|	F
+  F		|	  T		|	F
+  F		|	  F		|	F
+  T 	|	  T 	|	T
+
+	    OR		  	  CAMPEONES
+________________________________
+Neymar	|	Messi	|
+  T		|	  F		|	T
+  F		|	  T		|	T
+  F		|	  F		|	F
+  T 	|	  T 	|	T
+  
+  
+SI tengo CR7 OR (Neymar AND Messi), seremos campeones
+
+SI como Pizza OR (Arepas AND Chicharon), soy feliz
+
+SI salgo con Claudita OR (con mi hijo y mi sobrino), voy a divertirme
+
+1 + (2 x 3) = 1 + 6 => 7
