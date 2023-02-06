@@ -1,0 +1,16 @@
+Loops: While, For y Foreach
+	- Una estructura de repetición
+
+Chrome, modo desarrollador:
+- F12
+- Pestaña: Sources
+	- En el menu de la izquerda va a mostrar
+	 sus archivos
+- Break point es criado al clicar en una linea
+ del archivo js
+	- Break point para la ejecucion del codigo
+	- Para seguir la ejecucion, presione F10 o F8
+		- F10: Lee una linea por vez
+		- F8: Lee todas las lineas de una vez
+- Pestaña: Console (hundir la tecla "Esc"):
+	- És posible enviar mensajes usando console.log("")
