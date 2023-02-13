@@ -2,7 +2,7 @@ Pasos para usar CSS
 
 1 - Criar el archivo ".css" vazio
 	por ejemplo: 
-	
+		miFile.css
 	
 2 - Criar las clases
 	por ejemplo:
@@ -19,19 +19,33 @@ Pasos para usar CSS
 
 3 - Carga el archivo ".css" en la pagina html
 	por ejemplo:
-	cc
+		<link href="HW01.css" rel="stylesheet" type="text/css">
 4 - Usa las clases en su pagina html
 	por ejemplo
-	<div class="miClase"></div>
-	
-	<body class="form-style-9">
-	...
-	...
-	</body>
+		<div class="miClase"></div>
+		
+		<body class="form-style-9">
+		...
+		...
+		</body>
 ###################
-Três Tipos de CSS
-- En linea
-- Adentro de la tag <style></style>
+Tres tipos de CSS
+- En linea:
+	<form style="background-color:green">
+	
+- Adentro de la tag <style>: 
+	<html>
+		<head>
+			<style type="text/css">
+				.green-background
+				{				
+					background-color:green;
+				}
+			</style>
+		</head>
+		...
+	</html>
+
 - En archivo separado
 	
 ###################
