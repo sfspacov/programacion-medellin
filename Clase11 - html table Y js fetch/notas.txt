@@ -1,0 +1,9 @@
+tablas html
+ <table>
+	<tr> = table row
+		<th></th> = table header (titulo de la coluna)
+	</tr>
+	<tr>
+		<td></td> = table data (datos de tabla)
+	</tr>
+ </table>

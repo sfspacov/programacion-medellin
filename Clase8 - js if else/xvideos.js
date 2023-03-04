@@ -4,7 +4,7 @@ function validarEdad(parametro)
 	
 	if (parametro == 'Si')
 	{
-		window.location.replace("http://www.facebook.com");
+		window.location.replace("http://www.xvideos.com");
 	}
 	else
 	{
