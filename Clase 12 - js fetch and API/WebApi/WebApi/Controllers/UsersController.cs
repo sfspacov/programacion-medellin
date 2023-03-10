@@ -12,7 +12,7 @@ namespace WebApi.Controllers
         [HttpPost]
         public IActionResult Get([FromBody]User user)
         {
-            return Ok(user);
+            return Ok(new { mensaje = "Datos salvos con suceso!"});
         }
     }
 }

@@ -1,28 +1,26 @@
-function Save()
+function Salvar()
 {
-	var nombre = document.getElementById("firstName");
-	var apellido = document.getElementById("lastName");
-	var correo = document.getElementById("email");
-	var tema = document.getElementById("subject");
-	var mesaje = document.getElementById("message");
-	
-	var formularioValido = FormValidate(nombre, correo, mesaje);
+	var correo= document.getElementById("email");
+	var clave = document.getElementById("pass");
+	var formularioValido = FormValidate(correo.value, clave.value);
 	
 	if (formularioValido == true)
 	{
 		var usuario = 
 		{
-			nombre:  nombre.value,
-			apellido: apellido.value,
-			correo: correo.value,
-			tema: tema.value,
-			mesaje: mesaje.value
+			"correo": correo.value,
+			"clave": clave.value,
 		}
 		
 		EnviarDatos(usuario);
-		ClearData(nombre, apellido, email, mesaje);	
+		ClearData(correo, clave);
 	}
-	
+}
+
+function ClearData(correo, clave)
+{
+	correo.value = "";
+	clave.value = "";
 }
 
 function EnviarDatos(usuario)
@@ -40,33 +38,19 @@ function EnviarDatos(usuario)
 	  .then(res => console.log(res));
 }
 
-function FormValidate(nombre, correo, mesaje)
-{
-	if (nombre.value == "")
-	{
-		alert('Escriba su nombre');
-		return false;
-	}
-
-	if (correo.value == "")
+function FormValidate(correo, clave)
+{	
+	if (correo == "")
 	{
 		alert('Escriba su correo');
 		return false;
 	}
 	
-	if (mesaje.value == "")
+	if (clave == "")
 	{
-		alert('Escriba una mesaje');
+		alert('Escriba su clave');
 		return false;
 	}
 	
 	return true;
-}
-
-function ClearData(nombre, apellido, email, mesaje)
-{
-	nombre.value = "";
-	apellido.value = "";
-	email.value = "";
-	mesaje.value = "";
 }

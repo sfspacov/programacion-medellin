@@ -1,0 +1,5 @@
+Cuando salvar tengo que:
+1 - Validar los datos
+2 - Enviarlos para mi API
+3 - Limpiar mi formulario
+4 - Recibir una respuesta de la API

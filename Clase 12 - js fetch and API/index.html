@@ -1,61 +1,48 @@
 <html>
 	<head>
-		<link rel="stylesheet" href="form.css">
-		<link rel="stylesheet" href="table.css">
-		<script src="index.js"></script>
-		<title>Tablas html</title>
+	<title> tabla </title>
+			<link rel="stylesheet" href="index.css"/>
+			<script src="index.js"></script>
 	</head>
 	<body>
-		<form>
-			<ul class="form-style-1">
-				<li>
-					<label>Full Name <span class="required">*</span></label>
-					<input type="text" id="firstName" class="field-divided" placeholder="First" /> 
-					<input type="text" id="lastName" class="field-divided" placeholder="Last" />
-					</li>
-				<li>
-					<label>Email <span class="required">*</span></label>
-					<input type="email" id="email" class="field-long" />
-				</li>
-				<li>
-					<label>Subject</label>
-					<select id="subject" class="field-select">
-					<option value="Advertise">Advertise</option>
-					<option value="Partnership">Partnership</option>
-					<option value="General Question">General</option>
-					</select>
-				</li>
-				<li>
-					<label>Your Message <span class="required">*</span></label>
-					<textarea id="message" class="field-long field-textarea"></textarea>
-				</li>
-				<li>
-					<input type="button" value="Save" onclick="Save()"></input>
-				</li>
-			</ul>
-		</form>
-		<table>
-		  <tr>
-			<th>First Name</th>
-			<th>Last Name</th>
-			<th>Email</th>
-			<th>Subject</th>
-			<th>Message</th>
-		  </tr>
-		  <tr>
-			<td>Claudita</td>
-			<td>Pernett</td>
-			<td>clau@gmail.com</td>
-			<td>Clases de programacion</td>
-			<td>Estoy gustando de programar :)</td>
-		  </tr>
-		  <tr>
-			<td>Stephan</td>
-			<td>Spacov</td>
-			<td>stephan@gmail.com</td>
-			<td>Clases de programacion</td>
-			<td>Me gusta enseñar</td>
-		  </tr>
+		<!-- multistep form -->
+		<form id="msform">
+		  <!-- progressbar -->
+		  <ul id="progressbar">
+			<li class="active">Account Setup</li>
+			<li>Social Profiles</li>
+			<li>Personal Details</li>
+		  </ul>
+		  <!-- fieldsets -->
+		  <fieldset>
+			<h2 class="fs-title">Create your account</h2>
+			<h3 class="fs-subtitle">This is step 1</h3>
+			<input type="text" id="email" placeholder="Email" />
+			<input type="password" id="pass" placeholder="Password"/>
+			<input type="button" value="salvar" onclick="Salvar()"/>
+		  </fieldset>
+		</form>	
+		<table class="table">
+		  <thead>
+			<tr>
+			  <th scope="col">#</th>
+			  <th scope="col">correo</th>
+			  <th scope="col">clave</th>	 
+			</tr>
+		  </thead>
+		  <tbody>
+			<tr>
+			  <th scope="row">1</th>
+			  <td>sara@gmail.com</td>
+			  <td>Otto1234</td>	 
+			</tr>
+			<tr>
+			  <th scope="row">2</th>
+			  <td>Jacobhotmail.com</td>
+			  <td>Thornton0987</td>	  
+			</tr>
+		  </tbody>
 		</table>
+
 	</body>
 </html>
