@@ -34,6 +34,7 @@ bld/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
+v17/
 # Uncomment if you have tasks that create the project's static files in wwwroot
 #wwwroot/
 
@@ -452,4 +453,8 @@ $RECYCLE.BIN/
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+Clase 12 - js fetch and API/WebApi/.vs/WebApi/v17/.suo
+Clase 12 - js fetch and API/WebApi/.vs/ProjectEvaluation/webapi.metadata.v5.2
+Clase 12 - js fetch and API/WebApi/.vs/ProjectEvaluation/webapi.projects.v5.2
+Clase 12 - js fetch and API/WebApi/.vs/WebApi/v17/.futdcache.v2
 Clase 12 - js fetch and API/WebApi/.vs/WebApi/v17/.suo
