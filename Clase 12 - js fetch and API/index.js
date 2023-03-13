@@ -35,7 +35,10 @@ function EnviarDatos(usuario)
 	  },
 	  body: JSON.stringify(usuario)
 	}).then(res => res.json())
-	  .then(res => console.log(res));
+	  .then(
+	  function(res){		  
+		alert(res.mensaje)  
+	  });
 }
 
 function FormValidate(correo, clave)
