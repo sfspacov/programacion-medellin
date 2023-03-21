@@ -1,0 +1,15 @@
+- c# es una lenguaje tipada, js no!
+- es decir que en c# las deben tener tipo:
+	- las variables
+	- los parametros
+	- los retornos de funciones
+
+ejemplo:
+
+bool SalvarUsuario(string nombre, int edad)
+{
+	if (nombre == "" || edad < 1)
+		return false;
+	else		
+		return true;
+}

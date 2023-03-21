@@ -40,6 +40,7 @@ function EnviarDatos(usuario)
 	  .then(res => console.log(res));
 }
 
+//booleano true o false
 function FormValidate(nombre, correo, mesaje)
 {
 	if (nombre.value == "")

@@ -1,10 +1,9 @@
 function SalvarUsuario()
 {
-	var correo= document.getElementById("email");
-	var clave = document.getElementById("Password");
+	var correo= document.getElementById("texemail");
+	var clave = document.getElementById("texpassword");
 	var formularioValido = FormValidate(correo.value, clave.value);
-	
-	
+		
 	if (formularioValido == true)
 	{
 		var usuario = 
