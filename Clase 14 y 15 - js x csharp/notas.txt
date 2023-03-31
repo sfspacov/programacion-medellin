@@ -1,0 +1,27 @@
+JS x C#
+
+JS es tipada
+C# no es tipada
+- es decir que en c# deben tener tipo:
+	- las variables
+	- los parametros
+	- los retornos de funciones
+
+ejemplo en js:
+
+function sumarValores(a, b)
+{
+	return a + b;
+}
+
+Esa funcion js puede recibir y retornar cualquier tipo de datos (numero, texto, imajen...)
+
+ejemplo en C#:
+
+int sumarValores(int a, int b)
+{
+	return a + b;
+}
+
+Esa funcion C# puede solo recibir y retornar numeros interos
+
