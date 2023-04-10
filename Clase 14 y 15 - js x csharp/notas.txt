@@ -1,8 +1,8 @@
 JS x C#
 
-JS es tipada
-C# no es tipada
-- es decir que en c# deben tener tipo:
+JS no es tipada
+C# es tipada
+- es decir que en C# deben tener tipo:
 	- las variables
 	- los parametros
 	- los retornos de funciones
@@ -24,4 +24,3 @@ int sumarValores(int a, int b)
 }
 
 Esa funcion C# puede solo recibir y retornar numeros interos
-
