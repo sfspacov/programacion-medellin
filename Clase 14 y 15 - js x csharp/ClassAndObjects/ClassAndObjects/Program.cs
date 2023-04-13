@@ -21,13 +21,14 @@ class Car
     public string Marca;
     public string Modelo;
     public int Ano;
-    public float Precio;
     public bool TransmicionAutomatica;
-    public bool EstaPrendido;
+
+    public float Precio; //Cambia    
+    public bool EstaPrendido;  //Cambia
 
     void Prender()
     {
-        EstaPrendido= true;
+        EstaPrendido = true;
     }
 
     void Apagar()
@@ -35,7 +36,7 @@ class Car
         EstaPrendido = false;
     }
 
-    void Aceletar()
+    void Acelerar()
     {
         Console.WriteLine("Vrum, vrum");
     }
