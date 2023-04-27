@@ -25,7 +25,9 @@ function ClearData(correo, clave)
 
 function EnviarDatos(usuario)
 {
-	var url = 'http://localhost:5128/users';
+	var direcionDeLaApi = 'http://localhost:5128/'
+	var controller = 'users';
+	var url = direcionDeLaApi + controller;
 	
 	fetch(url, {
 	  method: 'POST',
