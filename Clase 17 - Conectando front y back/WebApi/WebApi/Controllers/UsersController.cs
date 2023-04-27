@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
+using System.Data.SqlClient;
 using WebApi.Models;
 
 namespace WebApi.Controllers
@@ -22,7 +23,14 @@ namespace WebApi.Controllers
 
         private void SalvarUsuario(User parametroUser)
         {
+            string connstring = "Server=(localdb)\\MSSQLLocalDB;Database=myDataBase;Trusted_Connection=True;";
 
+            using (var conn = new SqlConnection(connstring))
+            {
+                conn.Open();
+                var comm = new SqlCommand($"insert into usuario values('{parametroUser.Correo}', '{parametroUser.Clave}')", conn);
+                comm.ExecuteNonQuery();
+            }
         }
     }
 }
