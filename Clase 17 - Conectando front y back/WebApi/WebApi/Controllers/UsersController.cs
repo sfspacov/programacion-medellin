@@ -10,9 +10,19 @@ namespace WebApi.Controllers
     {
         [EnableCors("CorsPolicy")]
         [HttpPost]
-        public IActionResult Get([FromBody]User parametroUser)
+        public IActionResult Post([FromBody] User parametroUser)
         {
-            return Ok(new { mensaje = "Datos salvos con suceso!"});
+            if (parametroUser.Clave != "" && parametroUser.Correo != "")
+            {
+                SalvarUsuario(parametroUser);
+                return Ok(new { mensaje = "Datos salvos con suceso!" });
+            }
+            return BadRequest("No fue posible salvar los datos");
+        }
+
+        private void SalvarUsuario(User parametroUser)
+        {
+
         }
     }
 }
